@@ -5,6 +5,6 @@ version: '3'
 services:
     deepneuro:
         container_name: deepneuro
-        build: .
+        build: ..
         stdin_open: true
         tty: true
